@@ -11,15 +11,15 @@ O projeto abrange todo o ciclo analítico: desde a ingestão e tratamento de dad
 
 ---
 
-## 🖼️ Visão Geral do Dashboard Executivo
+##  Visão Geral do Dashboard Executivo
 
-![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](image.png)
 
 > **Interatividade do Painel:** Filtros dinâmicos por escolaridade (`education`) e estado civil (`marital`), recalculando em tempo real o volume de clientes e a taxa percentual de adesão por categoria profissional.
 
 ---
 
-## 🎯 O Problema de Negócio
+##  O Problema de Negócio
 
 Uma instituição financeira realizou uma campanha massiva de telemarketing com mais de **45.000 ligações** para venda de depósitos a prazo fixo (*term deposits*). 
 
@@ -31,19 +31,19 @@ Apesar do elevado investimento e desgaste da equipe de operadores, a **taxa de c
 
 ---
 
-## 🏗️ Arquitetura da Solução (Pipeline de Dados)
+##  Arquitetura da Solução (Pipeline de Dados)
 
 ```mermaid
 flowchart LR
-    A["📄 Dados Brutos<br/>(bank-full.csv: 45.211 linhas)"] --> B["⚙️ Pipeline ETL Python<br/>(importar.py / 0.84 seg)"]
-    B --> C["🗄️ Banco Relacional<br/>(SQLite / bank.db)"]
-    C --> D["🔍 Consultas SQL Analíticas<br/>(DBeaver / consultas.sql)"]
-    D --> E["📊 Dashboard Interativo<br/>(Power BI / DAX / KPIs)"]
+    A[" Dados Brutos<br/>(bank-full.csv: 45.211 linhas)"] --> B["⚙️ Pipeline ETL Python<br/>(importar.py / 0.84 seg)"]
+    B --> C[" Banco Relacional<br/>(SQLite / bank.db)"]
+    C --> D[" Consultas SQL Analíticas<br/>(DBeaver / consultas.sql)"]
+    D --> E[" Dashboard Interativo<br/>(Power BI / DAX / KPIs)"]
 ```
 
 ---
 
-## 💡 Principais Descobertas & Insights de Negócio
+##  Principais Descobertas & Insights de Negócio
 
 ### 1. Desperdício com Operários vs. Oportunidade em Estudantes e Reformados
 * A equipe direcionou o maior esforço para **operários (`blue-collar`)**, com **9.732 ligações**, obtendo a **pior conversão da empresa: apenas 7,27%**.
@@ -73,7 +73,7 @@ flowchart LR
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas Utilizadas
+##  Tecnologias e Ferramentas Utilizadas
 
 | Ferramenta / Tecnologia | Finalidade no Projeto |
 | :--- | :--- |
@@ -98,7 +98,7 @@ ProjectAD01/
 
 ---
 
-## 🚀 Como Executar o Projeto Localmente
+##  Como Executar o Projeto Localmente
 
 ### 1. Clonar o repositório e preparar o ambiente:
 ```bash
@@ -120,9 +120,9 @@ python importar.py
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 Desenvolvido por **Osório Júnior**  
-*Analista de Dados & Business Intelligence*  
+*Data Analyst & Business Intelligence*  
 🐙 [GitHub](https://github.com/ExpertOsorio) | ✉️ [Email](mailto:osoriojrchambule@gmail.com) | 💼 [LinkedIn](https://linkedin.com)
 
