@@ -3,8 +3,8 @@ import sqlite3
 import time 
 
 # 1. Definir os caminhos dos ficheiros CSV e de base de dados SQLite
-csv_file_path = 'C:\\Users\\Osório Júnior\\Desktop\\bank-full.csv'
-db_file_path = 'C:\\Users\\Osório Júnior\\Desktop\\bank.db'
+csv_file_path = 'bank-full.csv'
+db_file_path = 'bank.db'
 
 print("Iniciando a importacão dos dados do ficheiro CSV para a base de dados SQLite...")
 inicio = time.time()
