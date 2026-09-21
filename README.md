@@ -124,5 +124,5 @@ python importar.py
 
 Desenvolvido por **Osório Júnior**  
 *Data Analyst & Business Intelligence*  
-🐙 [GitHub](https://github.com/ExpertOsorio) | ✉️ [Email](mailto:osoriojrchambule@gmail.com) | 💼 [LinkedIn](https://linkedin.com)
+[GitHub](https://github.com/ExpertOsorio) |  [Email](mailto:osoriojrchambule@gmail.com) |  [LinkedIn](https://www.linkedin.com/in/os%C3%B3rio-j%C3%BAnior-1a4175317/)
 
