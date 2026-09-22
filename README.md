@@ -87,7 +87,7 @@ flowchart LR
 ## 📁 Estrutura de Arquivos do Repositório
 
 ```text
-ProjectAD01/
+bank-marketing-analytics/
 ├── bank-full.csv                 # Dataset original com 45.211 registros (UCI)
 ├── importar.py                   # Script de ETL em Python (leitura e gravação no SQL)
 ├── consultas.sql                 # Coleção de 6 queries SQL analíticas documentadas
