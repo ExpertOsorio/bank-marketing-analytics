@@ -48,6 +48,7 @@ flowchart LR
 ### 1. Desperdício com Operários vs. Oportunidade em Estudantes e Reformados
 * A equipe direcionou o maior esforço para **operários (`blue-collar`)**, com **9.732 ligações**, obtendo a **pior conversão da empresa: apenas 7,27%**.
 * Em contrapartida, **estudantes (`student`)** e **aposentados/reformados (`retired`)** apresentaram taxas extraordinárias de **28,68%** e **22,79%** (mais que o dobro da média geral de 11,7%).
+![Consulta SQL](image-1.png)
 * **Ação Recomendada:** Redirecionar 40% das escalas de telemarketing para produtos sob medida para estudantes e aposentados.
 
 ### 2. A "Regra dos 3 Contatos" (Fadiga Operacional)
@@ -55,20 +56,25 @@ flowchart LR
 * **2ª a 3ª ligação:** ~11,20% de conversão.
 * **4ª a 5ª ligação:** 8,63% de conversão.
 * **6 ou mais ligações:** **5,81%** de conversão.
+![Consulta SQL](image-2.png)
 * **Ação Recomendada:** Estabelecer uma trava operacional rígida no CRM: **máximo de 3 tentativas por cliente**. Ligar 6 vezes queima horas de trabalho e derruba o ROI da operação pela metade.
 
 ### 3. A Duração da Chamada como Indicador Forte de Venda
 * Chamadas com recusa (`no`) duram em média **3,7 minutos** (221 segundos).
 * Chamadas com sucesso (`yes`) duram em média **9,0 minutos** (537 segundos) — quase **2,5x mais tempo**.
+![Consulta SQL](image-3.png)
+![Consulta SQL](image-4.png)
 * **Ação Recomendada:** Eliminar metas de "número excessivo de chamadas rápidas por hora" para operadores. Vender produtos financeiros exige criar confiança e tirar dúvidas técnicas.
 
 ### 4. O Valor do Histórico Anterior (`poutcome`)
 * Clientes que já haviam fechado contrato no passado (`poutcome = 'success'`) converteram em impressionantes **64,73%**!
+![Consulta SQL](image-5.png)
 * **Ação Recomendada:** Criar uma lista VIP de recompra priorizada no início de cada mês fiscal.
 
 ### 5. Saldo Bancário como Pré-Filtro
 * Clientes com saldo negativo / devedores (`balance < 0`) convertem apenas **5,58%**.
 * Clientes com saldo acima de 1.000 euros convertem **15,33% a 15,50%** (quase 3x mais).
+![Consulta SQL](image-6.png)
 * **Ação Recomendada:** Aplicar filtro prévio no sistema para não ofertar produtos de poupança/depósito a contas com saldo devedor.
 
 ---
