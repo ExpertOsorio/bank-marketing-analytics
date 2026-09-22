@@ -56,7 +56,7 @@ flowchart LR
 * **2ª a 3ª ligação:** ~11,20% de conversão.
 * **4ª a 5ª ligação:** 8,63% de conversão.
 * **6 ou mais ligações:** **5,81%** de conversão.
-![Consulta SQL](image-2.png)
+![Consulta SQL](image-7.png)
 * **Ação Recomendada:** Estabelecer uma trava operacional rígida no CRM: **máximo de 3 tentativas por cliente**. Ligar 6 vezes queima horas de trabalho e derruba o ROI da operação pela metade.
 
 ### 3. A Duração da Chamada como Indicador Forte de Venda
